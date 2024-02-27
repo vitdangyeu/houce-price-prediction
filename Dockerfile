@@ -11,7 +11,7 @@ COPY ./requirements.txt /app
 
 COPY ./models /app/models
 
-# Set MODEL_DIR env variable
+# Set MODEL_DIR env var
 ENV MODEL_PATH /app/models/model.pkl
 
 # Port will be exposed, for documentation only
