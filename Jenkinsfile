@@ -38,6 +38,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
+                input "Approve ?"
                 echo 'Deploying models..'
                 echo 'Running a script to trigger pull and start a docker container'
             }
