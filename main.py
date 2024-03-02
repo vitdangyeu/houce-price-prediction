@@ -37,7 +37,7 @@ clf = joblib.load(
 def predict(data : HouseInfo):    
     # Predicting the class
     logger.info("Make predictions...")
-    # Convert data to pandas DataFrame and make predictions
+    # Convert data toDataFrame and make predictions
     price = clf.predict(
         pd.DataFrame(
             jsonable_encoder(data),
