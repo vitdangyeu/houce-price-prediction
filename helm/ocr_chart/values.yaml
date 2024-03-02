@@ -1,0 +1,4 @@
+image:
+  repository: fullstackdatascience/house-price-prediction-api
+  tag: "latest"
+  pullPolicy: Always
