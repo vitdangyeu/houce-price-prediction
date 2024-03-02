@@ -40,7 +40,7 @@ pipeline {
             steps {
                 input "Approve ?"
                 echo 'Deploying models..'
-                echo 'Running a script to trigger pull and start a docker container'
+                helm upgrade --install ocr ./helm/ocr_chart
             }
         }
     }
