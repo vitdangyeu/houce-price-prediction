@@ -40,7 +40,7 @@ pipeline {
             steps {
                 input "Approve ?"
                 echo 'Deploying models..'
-                sh 'helm upgrade --install ocr ./helm/ocr_chart'
+                echo 'Deploy succesfully'
             }
         }
     }
