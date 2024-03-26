@@ -40,7 +40,7 @@ pipeline {
             steps {
                 input "Approve ?"
                 echo 'Deploying models..'
-                echo 'Deploy succesfully'
+                echo 'Deployment succesfully'
             }
         }
     }
